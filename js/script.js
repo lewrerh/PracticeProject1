@@ -15,8 +15,35 @@ project 1 - A Random Quote Generator
   Use console.log() to log your array of quotes to the console.
 ***/
 
+var quoteSource = [
+  {
+    quote: 'Attitudes are more important than facts', 
+    source: 'George MacDonald'
+  },
+  {
+    quote:'I will not take "But" for an answer', 
+    source:'Langston Hughes'
+  
+  }, 
+  {
+    quote:'Your aspirations are your possibilities',
+    source:'Samuel Johnson'
 
+  }, 
+  {
+    quote:'Do unto others as you would have them do unto you',
+    source:'God',
+    citation: 'King James Version ',
+    year: "BC"
+  }, 
+  {
+    quote:'Attitude will always define who we are in life',
+    source:'Mark A. Brennan'
 
+  },
+];
+
+console.log
 
 /***
   Create the `getRandomQuote` function to:
